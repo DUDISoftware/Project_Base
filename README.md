@@ -7,19 +7,26 @@ Phù hợp cho các hệ thống web như: quản trị người dùng, đặt l
 
 ## 📂 Cấu trúc dự án
 
+```bash
 Project_Base_MERN/
-├── be/ # Backend: Express + MongoDB
-├── fe/ # Frontend: React + Vite + Tailwind
-│ ├── layouts/ # AdminLayout, MainLayout, AuthLayout
-│ ├── views/
-│ │ ├── admin/ # Giao diện admin
-│ │ ├── user/ # Giao diện người dùng
-│ │ └── auth/ # Đăng nhập / Đăng ký
-│ ├── routes/ # AppRoutes.jsx - cấu hình route theo layout
-│ ├── services/ # Axios service
-│ ├── context/ # AuthContext
-│ └── hooks/ # Custom hook (useAuth,...)
-
+├── be/                         # Backend: Express + MongoDB
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   ├── middleware/
+│   ├── config/
+│   └── server.js
+│
+├── fe/                         # Frontend: React + Vite + Tailwind
+│   ├── layouts/                # AdminLayout, MainLayout, AuthLayout
+│   ├── views/
+│   │   ├── admin/              # Giao diện admin
+│   │   ├── user/               # Giao diện người dùng
+│   │   └── auth/               # Đăng nhập / Đăng ký
+│   ├── routes/                 # AppRoutes.jsx - cấu hình route theo layout
+│   ├── services/               # Axios service
+│   ├── context/                # AuthContext
+│   └── hooks/                  # Custom hook (useAuth,...)
 
 ---
 
