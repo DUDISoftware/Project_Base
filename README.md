@@ -1,11 +1,11 @@
-# 🌱 MERN Base Project - Admin & User Roles (Vite + Tailwind)
+#  MERN Base Project - Admin & User Roles (Vite + Tailwind)
 
 Một project base hiện đại sử dụng **MERN stack** (MongoDB, Express, React, Node.js) kết hợp với **Vite** và **TailwindCSS**, có cấu trúc chuẩn và sẵn sàng mở rộng.  
 Phù hợp cho các hệ thống web như: quản trị người dùng, đặt lịch dịch vụ, e-commerce, dashboard,...
 
 ---
 
-## 📂 Cấu trúc dự án
+## Cấu trúc dự án
 
 ```bash
 Project_Base_MERN/
@@ -30,16 +30,16 @@ Project_Base_MERN/
 
 ---
 
-## 🚀 Tech Stack
+##  Tech Stack
 
-- **Frontend:**
+- Frontend:
   - [React.js](https://reactjs.org/)
   - [Vite](https://vitejs.dev/)
   - [TailwindCSS](https://tailwindcss.com/)
   - React Router v6
   - Axios
 
-- **Backend:**
+- Backend:
   - Express.js
   - MongoDB + Mongoose
   - JWT Authentication
@@ -47,20 +47,20 @@ Project_Base_MERN/
 
 ---
 
-## 🧠 Tính năng nổi bật
+##  Tính năng nổi bật
 
-✅ Giao diện tách biệt: User / Admin  
-✅ Layouts quản lý rõ ràng  
-✅ Auth login/register (JWT)  
-✅ React Context API lưu trạng thái đăng nhập  
-✅ Routing phân quyền (Private + Role-based)  
-✅ Axios cấu hình baseURL  
-✅ TailwindCSS cho giao diện responsive  
-✅ Cấu trúc dễ mở rộng & tái sử dụng
+ Giao diện tách biệt: User / Admin  
+ Layouts quản lý rõ ràng  
+ Auth login/register (JWT)  
+ React Context API lưu trạng thái đăng nhập  
+ Routing phân quyền (Private + Role-based)  
+ Axios cấu hình baseURL  
+ TailwindCSS cho giao diện responsive  
+ Cấu trúc dễ mở rộng & tái sử dụng
 
 ---
 
-## 🛠️ Cài đặt
+##  Cài đặt
 
 ### 1. Clone project
 
